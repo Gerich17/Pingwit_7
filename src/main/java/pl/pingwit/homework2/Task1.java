@@ -16,6 +16,5 @@ public class Task1 {
         System.out.println(Float.MIN_VALUE);
 
 
-
     }
 }
