@@ -2,6 +2,7 @@ package pl.pingwit.homework3;
 
 public class Task4 {
     public static void main(String[] args) {
+        // Составьте программу, вычисляющую A*B, не пользуясь операцией умножения.{
         int A = 147;
         int B = 7;
         int result = 0;
