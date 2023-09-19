@@ -5,7 +5,6 @@ public class Task8 {
             - Посчитать сумму четных и вывести на экран
             - Посчитать сумму нечетных и вывести на экран
             - Найти общую сумму всех чисел*/
-
     public static void main(String[] args) {
         int first = 0;
         int last = 100;
