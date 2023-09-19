@@ -1,10 +1,10 @@
 package pl.pingwit.homework3;
 
 public class Task8 {
-   /* Даны числа от 0 до 100.
-            - Посчитать сумму четных и вывести на экран
-            - Посчитать сумму нечетных и вывести на экран
-            - Найти общую сумму всех чисел*/
+    /* Даны числа от 0 до 100.
+             - Посчитать сумму четных и вывести на экран
+             - Посчитать сумму нечетных и вывести на экран
+             - Найти общую сумму всех чисел*/
     public static void main(String[] args) {
         int first = 0;
         int last = 100;
@@ -22,7 +22,6 @@ public class Task8 {
         System.out.println("Odd sum : " + oddSum);
         System.out.println("Total sum : " + (evenSum + oddSum));
     }
-
 }
 
 

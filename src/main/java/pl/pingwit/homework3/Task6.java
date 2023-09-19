@@ -8,6 +8,5 @@ public class Task6 {
             result = result + 2;
             System.out.println(result);
         }
-
     }
 }
