@@ -1,6 +1,6 @@
 package pl.pingwit.homework3;
 
-public class SummaChisel {
+public class ProgressionSum {
     // Вычислить: 1+2+4+8+...+256
     public static void main(String[] args) {
 
