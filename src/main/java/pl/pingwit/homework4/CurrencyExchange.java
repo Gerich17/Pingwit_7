@@ -5,13 +5,12 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class CurrencyExchange {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the required currency : ");
         String currency = scanner.next();
         System.out.println("Enter amount");
-        BigDecimal amount = new BigDecimal( scanner.next());
+        BigDecimal amount = new BigDecimal(scanner.next());
 
         BigDecimal toEuroRate = new BigDecimal("40");
         if (Objects.equals(currency, "eur")) {
