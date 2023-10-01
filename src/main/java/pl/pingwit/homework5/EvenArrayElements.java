@@ -7,16 +7,16 @@ public class EvenArrayElements {
     public static void main(String[] args) {
         int[] arrays = {1, 8, 3, 7, 76, 152, 349};
         int evenNumsCounter = 0;
-        for (int i = 0; i < arrays.length; i++) {
-            if (arrays[i] % 2 == 0) {
+        for (int j : arrays) {
+            if (j % 2 == 0) {
                 evenNumsCounter++;
             }
         }
         int[] result = new int[evenNumsCounter];
         int index = 0;
-        for (int i = 0; i < arrays.length; i++) {
-            if (arrays[i] % 2 == 0) {
-                result[index] = arrays[i];
+        for (int array : arrays) {
+            if (array % 2 == 0) {
+                result[index] = array;
                 index++;
             }
         }
